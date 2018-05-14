@@ -1,0 +1,16 @@
+.menu-bar {
+  color: rgb(17,188,198);
+  font-family: "Lato",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.182em;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 10, 10, 0.075);
+  border-top: 1px solid rgba(255, 10, 10, 0.075);
+}
+
+.x-navbar .desktop .x-nav>li>a>span {
+  border: 1px solid transparent;
+  padding: 0.875em 1.25em;
+  border-radius: 100em;
+}

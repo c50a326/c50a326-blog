@@ -5,6 +5,9 @@ html {
 }
 body {
   margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 article,
 aside,

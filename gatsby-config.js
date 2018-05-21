@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Lita & the Globe',
   },
   plugins: [
     'gatsby-plugin-emotion',
@@ -12,6 +12,7 @@ module.exports = {
         name: "markdown-pages",
       },
     },
+    `gatsby-plugin-react-svg`,
     `gatsby-transformer-remark`,
   ]
 }

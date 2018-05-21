@@ -14,11 +14,5 @@ module.exports = {
     },
     `gatsby-plugin-react-svg`,
     `gatsby-transformer-remark`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfig: `src/utils/typography`
-      }
-    }
   ]
 }

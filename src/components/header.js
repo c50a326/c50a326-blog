@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 import { css } from 'emotion'
 import { keyframes } from 'react-emotion'
 import AirplaneLogo from './airplane-logo.svg'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faSearch from '@fortawesome/fontawesome-free-solid/faSearch'
 
 const rotate = keyframes`
   from {
@@ -37,6 +39,36 @@ const Header = () => (
       justify-content: space-between;
       align-items: center;
       padding: 0.1rem 1rem;
+
+      a, input, input::placeholder, faSearch {
+        font-family: Lato;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 0.9rem;
+        color: rgb(17, 188, 198);
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+      ul {
+        -webkit-padding-start: 0;
+      }
+
+      ul>li, input {
+        padding: 0.4rem 0.7rem;
+        border: 0.05rem solid transparent;
+        border-radius: 90rem;
+      }
+
+      ul>li:hover, input:hover {
+        border: 0.05rem solid rgba(0,0,0,0.075);
+        border-radius: 100em;
+      }
+
+      input:focus {
+        outline: none;
+      }
     `}>
     <AirplaneLogo css={`
         width: 2rem;
@@ -52,35 +84,12 @@ const Header = () => (
         list-style-type: none;
         width: 75%;
 
-        a {
-          font-family: Lato;
-          font-weight: 300;
-          font-style: normal;
-          font-size: 0.9rem;
-          color: rgb(17, 188, 198);
-          letter-spacing: 0.2rem;
-          text-transform: uppercase;
-          text-decoration: none;
-        }
-
-        li {
-          padding: 0.4rem 0.7rem;
-          border: 0.05rem solid transparent;
-          border-radius: 90rem;
-        }
-
-        li:hover {
-          border: 0.05rem solid rgba(0,0,0,0.075);
-          border-radius: 100em;
-        }
       `}>
       <li><Link to="/" >Home</Link></li>
       <li><Link to="/posts/">Posts</Link></li>
       <li><Link to="/about/">About</Link></li>
     </ul>
-    <input css={`
-        background-color: blue;
-      `} type="search" />
+    <FontAwesomeIcon icon={faSearch} css={`color:rgb(17, 188, 198)`}/>
   </nav>
 )
 

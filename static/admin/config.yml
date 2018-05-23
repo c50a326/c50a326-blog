@@ -7,8 +7,11 @@ public_folder: assets
 
 collections:
   - name: posts
-    label: Blog
-    folder: src/posts
+    label: Posts
+    label_singular: "Post"
+    description: >
+      This is a description, let's see where it pops up
+    folder: "src/posts"
     create: true
     fields:
       - { name: path, label: Path }

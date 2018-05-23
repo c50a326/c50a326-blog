@@ -14,5 +14,6 @@ module.exports = {
     },
     `gatsby-plugin-react-svg`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-netlify-cms`
   ]
 }

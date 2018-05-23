@@ -17,7 +17,14 @@ const Layout = ({ children, data }) => (
       <link rel="shortcut icon" type="image/png" href={favicon} sizes="16x16" />
     </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
-    <div>
+    <div css={`
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      max-width: 40rem;
+      margin: auto;
+      `}>
       {children()}
     </div>
   </div>

@@ -71,8 +71,8 @@ const Header = () => (
       }
     `}>
     <AirplaneLogo css={`
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
         animation: ${rotate} 2s ease-in-out 1;
         transform-origin: 35% 15%;
       `}/>
@@ -89,7 +89,10 @@ const Header = () => (
       <li><Link to="/posts/">Posts</Link></li>
       <li><Link to="/about/">About</Link></li>
     </ul>
-    <FontAwesomeIcon icon={faSearch} css={`color:rgb(17, 188, 198)`}/>
+    <FontAwesomeIcon icon={faSearch} css={`
+      color:rgb(17, 188, 198);
+      font-size: 1rem;
+      `}/>
   </nav>
 )
 

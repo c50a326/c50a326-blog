@@ -1,9 +1,8 @@
 ---
 path: /posts/nepal/pokhara/local-food
 date: '2018-05-23'
-title: Local Food around Pokhara Lakeside
+title: 'Top 10 Restaurants in Pokhara, Nepal'
 ---
-# Top 10 Restaurants in Pokhara, Nepal
 ## ... Or where to find the best local food!
 Pokhara is a small town in the Northern part of Nepal and is mostly renowned for its beautiful lakeside (the biggest lake is called *Phewa Lake*). The city is also a starting and a finishing point for many trekkers, who want to explore the Annapurna Conservation Area, *aka* an area in the Himalayas. Not only are there many activities to enjoy in the surrounding areas (paragliding, jewellery workshops or yoga classes) but the traditional Northern Nepali cuisine really makes a stay in Pokhara worth your while! Due to its geographic isolation until the 1950's, Nepal has developed an unique cuisine. When Nepal opened its borders, the culinary traditions took on many ideas and ingredients from China, India, Tibet and the Western countries, as a result of the popularity of Nepal as a touristic destination. The booming tourism in Pokhara showcases this shift in culinary practices really well, as you might find yourself completely overwhelmed by the countless restaurants, bars and cafés. This is why I put together a Top 10 list of my favourite local food restaurants in this marvellous city!
 To get to any place in the list, just click here:

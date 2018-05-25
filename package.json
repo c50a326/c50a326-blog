@@ -16,12 +16,15 @@
     "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-react-svg": "^1.1.1",
+    "gatsby-plugin-typography": "^1.7.18",
     "gatsby-source-filesystem": "^1.5.35",
     "gatsby-transformer-remark": "^1.7.41",
-    "netlify-cms": "^1.8.0",
     "react-emotion": "^9.1.3",
     "react-helmet": "^5.2.0",
-    "svg-react-loader": "^0.4.5"
+    "svg-react-loader": "^0.4.5",
+    "typeface-raleway": "^0.0.54",
+    "typeface-sansita-one": "^0.0.44",
+    "typography": "^0.16.17"
   },
   "keywords": [
     "gatsby"

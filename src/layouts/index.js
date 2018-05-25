@@ -6,6 +6,9 @@ import { css } from 'emotion'
 import Header from '../components/header'
 import favicon from './latg-icon-16x16.png'
 
+require("typeface-sansita-one");
+require("typeface-raleway");
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet

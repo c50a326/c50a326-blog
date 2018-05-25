@@ -3,6 +3,13 @@ module.exports = {
     title: 'Lita & the Globe',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+        omitGoogleFont: true,
+      },
+    },
     'gatsby-plugin-emotion',
     'gatsby-plugin-react-helmet',
     {
@@ -12,8 +19,7 @@ module.exports = {
         name: "markdown-pages",
       },
     },
-    `gatsby-plugin-react-svg`,
     `gatsby-transformer-remark`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-react-svg`,
   ]
 }
